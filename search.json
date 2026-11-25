@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Daniel Hermosillo",
+    "section": "",
+    "text": "Daniel Hermosillo\n\nPh.D. Student in Economics\n\n\nUniversity of Pittsburgh\n\n\nEmail Pitt Profile GitHub\n\n\n\nI study microeconomic theory and behavioral and experimental economics. \nBefore my Ph.D., I was a researcher and the lab manager at the Los Angeles Behavioral Economics Laboratory at the University of Southern California. I hold an M.A. in Economics from the University of Pittsburgh and a B.A. in Mathematics and Economics from Occidental College."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Job market paper, working papers, and work in progress go here."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Courses you’ve taught or TA’d go here. Each full course can later live in its own repository and link from this page."
+  },
+  {
+    "objectID": "photography.html",
+    "href": "photography.html",
+    "title": "Photography",
+    "section": "",
+    "text": "Resize photos to about 2000 px on the long edge before adding them, so the site stays well under GitHub Pages’ size limit."
+  }
+]
