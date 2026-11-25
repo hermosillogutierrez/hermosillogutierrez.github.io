@@ -43,7 +43,7 @@ $navbar-hl: $accent;
   width: 100%;
   height: clamp(220px, 38vh, 420px);
   object-fit: cover;          // crops instead of stretching
-  object-position: center 40%; // move the crop up or down to suit your photo
+  object-position: center 60%; // move the crop up or down to suit your photo
 }
 // If a white gap appears between the navbar and the photo, uncomment and adjust:
 // .hero { margin-top: -1.5rem; }
