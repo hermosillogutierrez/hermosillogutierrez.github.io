@@ -8,6 +8,7 @@ website:
   search: false
   site-url: "https://username.github.io"
   navbar:
+    pinned: true
     right:
       # - text: CV
       #   href: files/cv.pdf
