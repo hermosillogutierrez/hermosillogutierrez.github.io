@@ -2,4 +2,9 @@
 title: "Teaching"
 ---
 
-Courses you've taught or TA'd go here. Each full course can later live in its own repository and link from this page.
+## University of Pittsburgh
+
+***Teaching Assistant***
+
+- **Microeconomic Theory I (Ph.D.)**, Fall 2026
+- **Healthcare Economics (MBA)**, Spring 2026

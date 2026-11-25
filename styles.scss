@@ -16,9 +16,9 @@ $headings-font-family: "Newsreader", Georgia, serif;
 $headings-font-weight: 500;
 
 // Navbar: white, quiet, so the photo is the one bold element on the page
-$navbar-bg: #ffffff;
-$navbar-fg: $ink;
-$navbar-hl: $accent;
+$navbar-bg: $accent;
+$navbar-fg: #ffffff;
+$navbar-hl: $rule;
 
 
 /*-- scss:rules --*/
@@ -39,19 +39,21 @@ $navbar-hl: $accent;
   margin: 0;
 }
 .hero img {
-  display: block;
+   display: block;
   width: 100%;
-  height: clamp(220px, 38vh, 420px);
-  object-fit: cover;          // crops instead of stretching
-  object-position: center 60%; // move the crop up or down to suit your photo
+  max-width: 600px;
+  height: clamp(220px, 40vh, 480px);
+  object-fit: cover; 
+  margin: 0 auto;
 }
 // If a white gap appears between the navbar and the photo, uncomment and adjust:
-// .hero { margin-top: -1.5rem; }
+.hero { margin-top: -2.6rem; }
 
 // --- Centered name, role, institution -----------------------------------
 .intro-header {
   text-align: center;
   margin: 2.75rem auto 2rem;
+  padding: 0 1.25rem;
 }
 .intro-header p {
   margin: 0;
@@ -77,8 +79,9 @@ $navbar-hl: $accent;
 // --- Introduction ------------------------------------------------------
 // About 70 characters per line, which is comfortable to read.
 .intro-body {
-  max-width: 38rem;
+  max-width: 40rem;
   margin: 0 auto 3rem;
+  padding: 0 1.25rem;
   font-size: 1.075rem;
   line-height: 1.65;
 }

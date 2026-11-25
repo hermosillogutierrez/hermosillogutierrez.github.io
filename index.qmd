@@ -8,7 +8,7 @@ anchor-sections: false
 ![](images/banner_1.jpg){fig-alt="Describe the photo in a few words for screen readers"}
 :::
 
-::: {.intro-header}
+::: {.column-screen .intro-header}
 # Daniel Hermosillo {.intro-name}
 
 ::: {.intro-role}
@@ -24,8 +24,8 @@ University of Pittsburgh
 :::
 :::
 
-::: {.intro-body}
-I study microeconomic theory and behavioral and experimental economics. <!-- Replace this comment with one sentence naming the specific question your current work asks. -->
+::: {.column-screen .intro-body}
+My research interests are in microeconomic theory and behavioral & experimental economics. <!-- Replace this comment with one sentence naming the specific question your current work asks. -->
 
 Before my Ph.D., I was a researcher and the lab manager at the Los Angeles Behavioral Economics Laboratory at the University of Southern California. I hold an M.A. in Economics from the University of Pittsburgh and a B.A. in Mathematics and Economics from Occidental College.
 :::
