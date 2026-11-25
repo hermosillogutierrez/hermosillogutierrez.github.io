@@ -1,0 +1,5 @@
+---
+title: "Photography"
+---
+
+Resize photos to about 2000 px on the long edge before adding them, so the site stays well under GitHub Pages' size limit.

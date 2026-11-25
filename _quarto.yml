@@ -1,0 +1,27 @@
+project:
+  type: website
+  resources:
+    - files/cv.pdf        # put your CV here; the navbar links straight to it
+
+website:
+  title: "Daniel Hermosillo"      # appears on the left of the navbar and links home
+  site-url: "https://username.github.io"
+  navbar:
+    right:
+      - text: CV
+        href: files/cv.pdf
+      - text: Research
+        href: research.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Photography
+        href: photography.qmd
+  page-footer:
+    center: "© 2026 Hermosillo"
+
+format:
+  html:
+    theme:
+      - default
+      - styles.scss
+    toc: false

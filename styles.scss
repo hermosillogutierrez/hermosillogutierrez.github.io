@@ -1,0 +1,84 @@
+/*-- scss:defaults --*/
+
+// Fonts: a serif for your name and headings, a sans for body text and navigation
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Source+Sans+3:wght@400;600&display=swap');
+
+// Palette
+$ink:    #22303c;   // body text
+$muted:  #5b6770;   // secondary text (institution line)
+$accent: #1f5c99;   // links
+$rule:   #e3e6e8;   // hairline under the navbar
+
+$body-color: $ink;
+$link-color: $accent;
+$font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, sans-serif;
+$headings-font-family: "Newsreader", Georgia, serif;
+$headings-font-weight: 500;
+
+// Navbar: white, quiet, so the photo is the one bold element on the page
+$navbar-bg: #ffffff;
+$navbar-fg: $ink;
+$navbar-hl: $accent;
+
+
+/*-- scss:rules --*/
+
+// --- Top bar -------------------------------------------------------------
+.navbar {
+  border-bottom: 1px solid $rule;
+}
+.navbar-title {
+  font-family: $headings-font-family;
+  font-size: 1.3rem;
+}
+
+// --- Full-width photo ----------------------------------------------------
+// Height is capped so your name stays visible without scrolling on a laptop.
+.hero p,
+.hero figure {
+  margin: 0;
+}
+.hero img {
+  display: block;
+  width: 100%;
+  height: clamp(220px, 38vh, 420px);
+  object-fit: cover;          // crops instead of stretching
+  object-position: center 40%; // move the crop up or down to suit your photo
+}
+// If a white gap appears between the navbar and the photo, uncomment and adjust:
+// .hero { margin-top: -1.5rem; }
+
+// --- Centered name, role, institution -----------------------------------
+.intro-header {
+  text-align: center;
+  margin: 2.75rem auto 2rem;
+}
+.intro-header p {
+  margin: 0;
+}
+.intro-header h1.intro-name {
+  font-size: clamp(2.1rem, 4.5vw, 2.8rem);
+  margin: 0 0 0.4rem;
+  border-bottom: none;
+}
+.intro-role {
+  font-size: 1.15rem;
+}
+.intro-place {
+  color: $muted;
+}
+.intro-links {
+  margin-top: 0.9rem;
+}
+.intro-links a {
+  margin: 0 0.65rem;
+}
+
+// --- Introduction ------------------------------------------------------
+// About 70 characters per line, which is comfortable to read.
+.intro-body {
+  max-width: 38rem;
+  margin: 0 auto 3rem;
+  font-size: 1.075rem;
+  line-height: 1.65;
+}

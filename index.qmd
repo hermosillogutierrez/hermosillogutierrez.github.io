@@ -1,0 +1,31 @@
+---
+pagetitle: "Daniel Hermosillo"
+page-layout: full
+anchor-sections: false
+---
+
+::: {.column-screen .hero}
+![](images/banner_1.jpg){fig-alt="Describe the photo in a few words for screen readers"}
+:::
+
+::: {.intro-header}
+# Daniel Hermosillo {.intro-name}
+
+::: {.intro-role}
+Ph.D. Student in Economics
+:::
+
+::: {.intro-place}
+University of Pittsburgh
+:::
+
+::: {.intro-links}
+[Email](dah360@pitt.edu) [Google Scholar](https://scholar.google.com) [GitHub](https://github.com/username)
+:::
+:::
+
+::: {.intro-body}
+I study microeconomic theory and behavioral and experimental economics. <!-- Replace this comment with one sentence naming the specific question your current work asks. -->
+
+Before my Ph.D., I was a researcher and the lab manager at the Los Angeles Behavioral Economics Laboratory at the University of Southern California. I hold an M.A. in Economics from the University of Pittsburgh and a B.A. in Mathematics and Economics from Occidental College.
+:::
